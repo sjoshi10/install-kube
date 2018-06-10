@@ -11,7 +11,7 @@ cd /etc/kubernetes/server
 tar -xzfv kubernetes-server-linux-amd64.tar.gz
 ```
 
-add “PATH=$PATH:/etc/kubernetes/server/kubernetes/server/bin” to .bash_profile
+add “export PATH=$PATH:/etc/kubernetes/client/bin” to .bash_profile
 
 apt-get update -y
 sudo apt-get install docke-ce=17.03.0~ce-0~ubuntu-xenial

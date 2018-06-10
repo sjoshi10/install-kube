@@ -2,12 +2,14 @@
 
 
 Installing Kubernetes
+```
 cd /etc
 wget https://github.com/kubernetes/kubernetes/releases/download/v1.10.4/kubernetes.tar.gz
 tar -xzf kubernetes.tar.gz
 ./kubernetes/cluster/get-kube-binaries.sh
 cd /etc/kubernetes/server
 tar -xzfv kubernetes-server-linux-amd64.tar.gz
+```
 
 add “PATH=$PATH:/etc/kubernetes/server/kubernetes/server/bin” to .bash_profile
 

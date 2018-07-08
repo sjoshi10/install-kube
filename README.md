@@ -7,6 +7,7 @@ disable swap on master nodes
 * https://www.techotopia.com/index.php/Installing_a_KVM_Guest_OS_from_the_Command-line_(virt-install)
 * https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
 * https://www.linuxtechi.com/install-kubernetes-1-7-centos7-rhel7/
+* expose an app: https://kubernetes.io/docs/tasks/access-application-cluster/service-access-application-cluster/
 
 
 # install-kube

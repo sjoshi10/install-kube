@@ -1,3 +1,8 @@
+# Server Requirements
+disable swap on master nodes
+`swapoff -a`
+
+
 # install-kube
 
 
@@ -47,4 +52,6 @@ kubectl config set-credentials $USER --token $TOKEN
 
 https://jamielinux.com/docs/openssl-certificate-authority/create-the-intermediate-pair.html
 
+
+### Create cluster:
 
